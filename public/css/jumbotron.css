@@ -1,7 +1,7 @@
 #jumbotron{
     width: 100%;
     height: 300px;
-    background-image: url('https://www.tomshw.it/images/images/2019/02/dc-comics-19749.hero.jpg');
+    background-image: url('../img/jumbotron.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
