@@ -34,3 +34,6 @@ header{
     display: inline-block;
     font-weight: bold;
   }
+  input{
+    width: 50px;
+  }
