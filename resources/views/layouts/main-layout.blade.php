@@ -10,6 +10,11 @@
     <title>Document</title>
 </head>
 <body>
+    @include('components.header')
+    @include('components.jumbotronHomepage')
+
     @yield('content')
+    @include('components.footer')
+
 </body>
 </html>
