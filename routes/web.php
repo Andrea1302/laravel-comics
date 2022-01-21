@@ -18,6 +18,6 @@ Route::get('/', function () {
 }) -> name("homepage");
 
 
-Route::get('/card', function () {
-    return view('pages.cardInfo');
-}) -> name("cardInfo");
+Route::get('card', function () {
+    return view('pages.primaCardInfo');
+}) -> name("primaCardInfo");
