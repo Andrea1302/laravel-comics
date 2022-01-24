@@ -108,7 +108,7 @@
               <ul id="lista_top_footer">
                   <li>
                       <a href="#">
-                        <img class="img_top_footer" src="../../img/digital.png" :alt="link.descrizione">
+                        <img class="img_top_footer" src="{{ asset('storage/assets/digital.png')}}" alt="link.descrizione">
                         <div class="link_name">DIGITAL COMICS</div>
                       </a>
                       
@@ -116,40 +116,32 @@
 
                   <li>
                       <a href="#">
-                        <img class="img_top_footer" src="" :alt="link.descrizione">
-                        <div class="link_name">DIGITAL COMICS</div>
+                        <img class="img_top_footer" src="{{ asset('storage/assets/merchandise.png')}}" alt="link.descrizione">
+                        <div class="link_name">DC MERCHANDISE </div>
                       </a>
                       
                   </li>
 
                   <li>
                       <a href="#">
-                        <img class="img_top_footer" src="" :alt="link.descrizione">
-                        <div class="link_name">DIGITAL COMICS</div>
+                        <img class="img_top_footer" src="{{ asset('storage/assets/subscrition.png')}}" alt="link.descrizione">
+                        <div class="link_name">SUBSCRIPTION</div>
                       </a>
                       
                   </li>
 
                   <li>
                       <a href="#">
-                        <img class="img_top_footer" src="" :alt="link.descrizione">
-                        <div class="link_name">DIGITAL COMICS</div>
+                        <img class="img_top_footer" src="{{ asset('storage/assets/shop.png')}}" alt="link.descrizione">
+                        <div class="link_name">COMIC SHOP LOCATOR</div>
                       </a>
                       
                   </li>
 
                   <li>
                       <a href="#">
-                        <img class="img_top_footer" src="" :alt="link.descrizione">
-                        <div class="link_name">DIGITAL COMICS</div>
-                      </a>
-                      
-                  </li>
-
-                  <li>
-                      <a href="#">
-                        <img class="img_top_footer" src="" :alt="link.descrizione">
-                        <div class="link_name">DIGITAL COMICS</div>
+                        <img class="img_top_footer" src="{{ asset('storage/assets/visa.svg')}}" alt="link.descrizione">
+                        <div class="link_name">DC POWER VISA </div>
                       </a>
                       
                   </li>

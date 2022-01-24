@@ -7,21 +7,21 @@
                         DC COMICS
                         <li>
                             <a href="link.url">
-                                <!-- {{link.descrizione}} -->
+
                                 Character
                             </a>
                         </li>
 
                         <li>
                             <a href="link.url">
-                                <!-- {{link.descrizione}} -->
+
                                 Character
                             </a>
                         </li>
 
                         <li>
                             <a href="link.url">
-                                <!-- {{link.descrizione}} -->
+
                                 Character
                             </a>
                         </li>
@@ -31,7 +31,7 @@
                         SHOP
                         <li>
                             <a href="#">
-                                <!-- {{link.descrizione}} -->
+
                                 Shop DC
                             </a>
                         </li>
@@ -83,27 +83,27 @@
                     
                     <li>
                         <a href="#">
-                            <img src="../../img/footer-facebook.png" alt="facebook logo">
+                            <img src="{{ asset('storage/assets/footer-facebook.png')}}" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../img/footer-twitter.png" alt="facebook logo">
+                            <img src="{{ asset('storage/assets/footer-twitter.png')}}" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../img/footer-youtube.png" alt="facebook logo">
+                            <img src="{{ asset('storage/assets/footer-youtube.png')}}" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../img/footer-pinterest.png" alt="facebook logo">
+                            <img src="{{ asset('storage/assets/footer-pinterest.png')}}" alt="facebook logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../img/footer-periscope.png" alt="facebook logo">
+                            <img src="{{ asset('storage/assets/footer-periscope.png')}}" alt="facebook logo">
                         </a>
                     </li>
                 </ul>
