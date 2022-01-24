@@ -6,11 +6,41 @@
         width: 140px;
         height: auto;
         position: absolute;
-        bottom: 20px;
+        bottom: 20px;   
     }
  
 }
-
+#advertisement{
+    text-align: end;
+    padding-top: 50px;
+}
 #secondPage{
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    #sx_info{
+        width: 70%;
+    }
+    #check{
+        background-color: yellowgreen;
+        display: flex;
+        justify-content: space-between;
+        #price_check{
+            padding: 10px;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #option{
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            border: 1px solid green;
+
+        }
+    }
+    p{
+        margin: 20px 0;
+        color: rgb(14, 7, 7);
+    }
 }

@@ -281,8 +281,44 @@ ul {
   bottom: 20px;
 }
 
+#advertisement {
+  text-align: end;
+  padding-top: 50px;
+}
+
 #secondPage {
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+#secondPage #sx_info {
+  width: 70%;
+}
+
+#secondPage #check {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+}
+
+#secondPage #check #price_check {
+  padding: 10px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#secondPage #check #option {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+#secondPage p {
+  margin: 20px 0;
+  color: #0e0707;
 }
 
 * {
