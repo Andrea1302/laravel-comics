@@ -1,4 +1,5 @@
-<div class="container">
+<main>
+    <div class="container">
         <section>
             <div id="container_section_cards">
                  <span id="current_series">
@@ -8,7 +9,9 @@
                 <div id="section_cards">
                   
                     <div id="card" >
-                        <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="1">
+                        <a href="{{route('primaCardInfo')}}">
+                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="1">
+                        </a>
                         <div id="description">
                            <a href="{{route('primaCardInfo')}}">Action Comics !!!!!</a> 
                         </div>
@@ -150,3 +153,5 @@
               </ul>
           </div>
       </section>
+</main>
+

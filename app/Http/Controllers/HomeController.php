@@ -118,6 +118,7 @@ class HomeController extends Controller
     ];
 
     public function home(){
+        
         $linksComics = $this -> linksDcComics;
         $linksShops = $this -> linksShop;
         $ArrDcLinks = $this -> linksDClinksDC;
@@ -127,6 +128,11 @@ class HomeController extends Controller
     }
 
     public function cardInfo(){
-        return view('pages.primaCardInfo');
+
+        $linksComics = $this -> linksDcComics;
+        $linksShops = $this -> linksShop;
+        $ArrDcLinks = $this -> linksDClinksDC;
+        $ArrSites = $this -> Sites;
+        return view('pages.primaCardInfo',compact('linksComics',"linksShops","ArrDcLinks","ArrSites"));
     }
 }

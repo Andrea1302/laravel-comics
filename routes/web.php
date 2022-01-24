@@ -17,6 +17,5 @@ Route::get('/', 'homeController@home')  -> name("homepage");
 
 
 
-Route::get('card', function () {
-    return view('pages.primaCardInfo');
-}) -> name("primaCardInfo");
+Route::get('card', 'homeController@cardInfo') -> name("primaCardInfo");
+
