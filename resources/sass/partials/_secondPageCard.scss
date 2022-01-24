@@ -1,0 +1,16 @@
+#space{
+    height: 50px;
+    background-color: royalblue;
+    position: relative;
+    .card_selcted{
+        width: 140px;
+        height: auto;
+        position: absolute;
+        bottom: 20px;
+    }
+ 
+}
+
+#secondPage{
+    display: flex;
+}
