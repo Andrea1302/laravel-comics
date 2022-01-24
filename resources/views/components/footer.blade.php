@@ -5,36 +5,24 @@
                 <div>
                     <ul>
                         DC COMICS
-                        <li>
-                            <a href="link.url">
-
-                                Character
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="link.url">
-
-                                Character
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="link.url">
-
-                                Character
-                            </a>
-                        </li>
+                        @foreach ($linksComics as $link)
+                            <li>
+                                <a href="{{$link['url']}}">{{$link['descrizione']}}</a>
+                            </li>
+                        @endforeach
+                       
                     </ul>
 
                     <ul>
                         SHOP
+                        @foreach ($linksShops as $linkshopItem)
                         <li>
-                            <a href="#">
-
-                                Shop DC
+                            <a href="{{$linkshopItem['url']}}">
+                                {{$linkshopItem['descrizione']}}
                             </a>
                         </li>
+                        @endforeach
+                       
                         
                     </ul>
                 </div>
@@ -42,27 +30,34 @@
                 <div id="central_nav">
                     <ul>
                         DC
+
+                        @foreach ($ArrDcLinks as $dcLink)
                         <li >
-                            <a href="link.url">
-                                Terms of Use
+                            <a href="{{$dcLink['url']}}">
+                               {{$dcLink['descrizione']}}
                             </a>
                         </li>
+                        @endforeach
+                      
                     </ul>
                 </div>
 
                 <div>
                     <ul>
                         SITES
+                        @foreach ($ArrSites as $site)
                         <li >
-                            <a href="link.url">
-                                DC
+                            <a href="{{$site['url']}}">
+                                {{$site['descrizione']}}
                             </a>
                         </li>
+                        @endforeach
+                       
                     </ul>
                 </div>
             </nav>
             <div id="logo">
-                <img src="../img/dc-logo-bg.png" alt="logo dc">
+                <img src="{{asset('storage/assets/dc-logo-bg.png')}}" alt="logo dc">
             </div>
         </div>
     </section>
