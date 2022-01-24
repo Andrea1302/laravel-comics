@@ -286,39 +286,102 @@ ul {
   padding-top: 50px;
 }
 
-#secondPage {
+#secondPageTop {
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
 }
 
-#secondPage #sx_info {
+#secondPageTop #sx_info {
   width: 70%;
 }
 
-#secondPage #check {
+#secondPageTop #check {
   background-color: yellowgreen;
   display: flex;
   justify-content: space-between;
 }
 
-#secondPage #check #price_check {
+#secondPageTop #check #price_check {
   padding: 10px;
   width: 70%;
   display: flex;
   justify-content: space-between;
 }
 
-#secondPage #check #option {
+#secondPageTop #check #option {
   padding: 10px;
   display: flex;
   justify-content: center;
   border: 1px solid green;
 }
 
-#secondPage p {
+#secondPageTop p {
   margin: 20px 0;
   color: #0e0707;
+}
+
+#secondPageBottom {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+#secondPageBottom #sponsor {
+  display: flex;
+  margin-top: 100px;
+}
+
+#secondPageBottom #sponsor .section_sponsor {
+  display: flex;
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  color: #aeadad;
+  justify-content: space-between;
+}
+
+#secondPageBottom #sponsor .section_sponsor .img_sponsor {
+  width: 40px;
+}
+
+#secondPageBottomTab {
+  display: flex;
+  justify-content: space-between;
+}
+
+#secondPageBottomTab #talent {
+  width: 45%;
+}
+
+#secondPageBottomTab #specs {
+  width: 45%;
+}
+
+#secondPageBottomTab .section_tab {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#secondPageBottomTab a {
+  text-decoration: none;
+}
+
+#secondPageBottomTab #art_by {
+  display: flex;
+  justify-content: space-between;
+}
+
+#secondPageBottomTab #art_by #art {
+  width: 60%;
+}
+
+#secondPageBottomTab #written_by {
+  display: flex;
+  justify-content: space-between;
+}
+
+#secondPageBottomTab #written_by #written {
+  width: 60%;
 }
 
 * {

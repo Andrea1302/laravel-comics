@@ -14,7 +14,7 @@
     text-align: end;
     padding-top: 50px;
 }
-#secondPage{
+#secondPageTop{
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
@@ -43,4 +43,57 @@
         margin: 20px 0;
         color: rgb(14, 7, 7);
     }
+}
+
+#secondPageBottom{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #ccc;
+    #sponsor{
+        display: flex;
+        margin-top: 100px;
+        .section_sponsor{
+            display: flex;
+            width: 25%;
+            border: 1px solid #ccc;
+            padding: 5px;
+            color: rgb(174, 173, 173);
+            justify-content: space-between;
+            .img_sponsor{
+                width: 40px;
+            }
+        }
+    }
+}
+#secondPageBottomTab{
+   display: flex;
+   justify-content: space-between;
+    
+   #talent{
+       width: 45%;
+   }
+   #specs{
+       width: 45%;
+   }
+   .section_tab{
+       padding: 10px 0;
+       border-bottom: 1px solid #ccc;
+   }
+   a{
+    text-decoration: none;
+    }
+   #art_by{
+       display: flex;
+       justify-content: space-between;
+      
+       #art{
+        width: 60%;
+       }
+   }
+   #written_by{
+    display: flex;
+    justify-content: space-between;
+    #written{
+        width: 60%;
+    }
+   }
 }
